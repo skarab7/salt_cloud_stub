@@ -1,0 +1,3 @@
+ubuntu_xs_instance:
+ - web_server
+ - database

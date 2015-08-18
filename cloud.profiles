@@ -1,0 +1,7 @@
+ubuntu_xs_instance:
+    provider: cah-dd2c
+    ssh_username: ubuntu
+    size: cloudcompute.xs
+    image: Ubuntu 14.04 LTS x64
+    ssh_key_name: my-key
+    security_groups: ssh_access, global_saltstack 
